@@ -1,0 +1,27 @@
+:root {
+    --accent: #9fe870;
+    --accent-hover: #80e142;
+    --accent-active: #65cf21;
+    --control: #163300;  
+    --scrollbar-thumb: #C6CDC1;
+    --secondary: #ECEFEB; 
+    --secondary-hover: #E0E4DE;
+    --secondary-active: #6c6c6b; 
+    --content-primary: #0e0f0c;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    min-width: 20rem;
+    padding: 1rem;
+    font-family: "Inter", sans-serif;
+    color: var(--content-primary);
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
